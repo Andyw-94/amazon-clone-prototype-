@@ -10,18 +10,15 @@ import { auth } from "./firebase";
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
-  // useEffect <- POWERFUL
-  // piece of code that runs based on a give condition
+
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((authUser) => {
       if(authUser){
-        // the user is logged in
         dispatch({
           type: 'SET_USER',
           user: authUser
         });
       } else {
-        // the user is logged out
         dispatch({
           type: 'SET_USER',
           user: null
@@ -30,7 +27,6 @@ function App() {
     });
 
     return () => {
-      // any clean up operations go here
       unsubscribe();
     };
   }, []);
@@ -45,7 +41,6 @@ function App() {
           <Route path='/login'>
             <Login />
           </Route>
-          {/* This is the default route */}
           <Route path='/'>
             <Header />
             <Home /> 
