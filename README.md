@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App]
 
-![React App - Personal - Microsoft​ Edge 3_21_2021 3_44_55 PM](https://user-images.githubusercontent.com/78442208/114080310-1ca83480-9860-11eb-91ae-4c75d8b613d9.png)
+![amazon-clone](https://user-images.githubusercontent.com/78442208/114080726-8f191480-9860-11eb-865b-31e09c3c7fb9.png)
 
 
 ## Available Scripts
