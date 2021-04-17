@@ -1,4 +1,4 @@
-# Amazon Clone
+# Amazon Clone (prototype)
 This project is a replica of Amazon, built with React
 
 ![amazon-clone](https://user-images.githubusercontent.com/78442208/114080726-8f191480-9860-11eb-865b-31e09c3c7fb9.png)
